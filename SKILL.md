@@ -1,9 +1,9 @@
 ---
-name: instagram-refined
-description: "Edits raw vertical talking-head clips into a fast, tight Instagram reel in the Instagram Refined style: picks the best take of every line, cuts every pause and filler word, keeps picture and voice in sync, adds bold lowercase captions with gold punch words, shows spoken lists on screen as they are said, places the overlays you upload (screen recordings, screenshots, product shots) exactly when their topic is spoken, adds sparing sound effects, and checks every cut. Trigger with /instagram-refined or phrases like 'edit these clips', 'I dropped clips in my downloads', 'cut this into a reel'."
+name: edit-reel
+description: "Edits raw vertical talking-head clips into a fast, tight Instagram reel in the Instagram Refined style: picks the best take of every line, cuts every pause and filler word, keeps picture and voice in sync, adds bold lowercase captions with gold punch words, shows spoken lists on screen as they are said, places the overlays you upload (screen recordings, screenshots, product shots) exactly when their topic is spoken, adds sparing sound effects, and checks every cut. Trigger with /edit-reel or phrases like 'edit these clips', 'I dropped clips in my downloads', 'cut this into a reel'."
 ---
 
-# /instagram-refined
+# /edit-reel
 
 Raw clips in, finished reel out. The creator never opens an editor: they review a phone copy, send notes in the
 same chat, and every round is a re-render of a minute or two.
@@ -12,7 +12,7 @@ All tools run through one launcher, with the skill's own Python environment:
 
     python3 SK/scripts/run.py <tool> <args>      (Windows: python or py -3 instead of python3)
 
-`SK` is the folder holding this file (usually `~/.claude/skills/instagram-refined`). Tools: `transcribe`,
+`SK` is the folder holding this file (usually `~/.claude/skills/edit-reel`). Tools: `transcribe`,
 `plan_cuts`, `timeline`, `captions`, `render`, `check`, `make_sfx`. One command per call, full paths in double quotes.
 
 ## First run (once)

@@ -1,7 +1,7 @@
 # Instagram Refined
 ### A Claude Code skill by [@nimishamundade](https://github.com/nimishamundade)
 
-Film your talking-head clips on your phone, drop them in a folder, type `/instagram-refined`, and Claude edits them
+Film your talking-head clips on your phone, drop them in a folder, type `/edit-reel`, and Claude edits them
 into a fast, tight Instagram reel. You never open an editor: you watch a phone copy, send notes, and it re-renders.
 
 ## What it does
@@ -33,16 +33,16 @@ After installing on Windows, quit Claude Code completely and reopen it.
 Open Claude Code and paste:
 
 ```
-Install this skill for me: https://github.com/nimishamundade/instagram-refined-skill
+Install this skill for me: https://github.com/nimishamundade/edit-reel
 ```
 
 Or in a terminal:
 
 ```bash
-git clone https://github.com/nimishamundade/instagram-refined-skill "$HOME/.claude/skills/instagram-refined"
+git clone https://github.com/nimishamundade/edit-reel "$HOME/.claude/skills/edit-reel"
 ```
 
-Then run `/instagram-refined`. The first run checks your computer, tells you the exact line to paste for anything
+Then run `/edit-reel`. The first run checks your computer, tells you the exact line to paste for anything
 missing, and builds its own Python environment (about 2 minutes, once; it downloads a speech model on first use).
 
 ## Use
@@ -50,13 +50,13 @@ missing, and builds its own Python environment (about 2 minutes, once; it downlo
 Put your raw clips in `Downloads` (or tell it where they are) and run:
 
 ```
-/instagram-refined I just dropped 4 clips in my downloads
+/edit-reel I just dropped 4 clips in my downloads
 ```
 
 Overlays go with the footage. Tell it which files they are and when they belong:
 
 ```
-/instagram-refined these are overlays: dairy.mp4, study.png. Show dairy.mp4 when I talk about cow dairy being exposed.
+/edit-reel these are overlays: dairy.mp4, study.png. Show dairy.mp4 when I talk about cow dairy being exposed.
 ```
 
 Send notes in the same chat ("cut the pause before 'or you can get'", "make the captions bigger") and it re-renders.
