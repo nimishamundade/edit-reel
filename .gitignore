@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+config.json
+assets/sfx/*.wav
+assets/sfx/*.mp3
